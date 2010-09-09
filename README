@@ -1,0 +1,6 @@
+This is pretty easy to use (I'm assuming you know how to use node.js - if not read up at nodejs.org first) - simply sign up over at http://postmarkapp.com/ , follow their instructions to get your api key, then check out the demo.js script, putting your own api key and sending email either in the node-postmark.js file in the defaults object, or you can override when you call the send method by specifying the "token" and "from" properties of the first argument.
+
+Basically, check out the demo - should be self explanatory.
+
+Enjoy :)
+ 
